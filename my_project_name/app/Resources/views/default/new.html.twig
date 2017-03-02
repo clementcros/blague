@@ -1,0 +1,12 @@
+{% for boutade in blague%}
+<p> {{ boutade.auteur}} : {{ boutade.texte}}: {{ boutade.categorie}}</p>
+{%endfor%}      
+
+<h3>Formulaire d'annonce</h3>
+
+<div class="well">
+  {{ form(form) }}
+</div>
+
+
+
